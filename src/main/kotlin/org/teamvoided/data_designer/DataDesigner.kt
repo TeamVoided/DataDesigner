@@ -3,6 +3,7 @@ package org.teamvoided.data_designer
 import net.minecraft.util.Identifier
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
+import org.teamvoided.data_designer.init.DDFakeBlocks
 
 @Suppress("unused")
 object DataDesigner {
@@ -13,6 +14,7 @@ object DataDesigner {
 
     fun commonInit() {
         log.info("Hello from Common")
+        DDFakeBlocks.init()
     }
 
     fun clientInit() {

@@ -28,7 +28,7 @@ modSettings {
 
     entrypoint("main", "org.teamvoided.data_designer.DataDesigner::commonInit")
     entrypoint("client", "org.teamvoided.data_designer.DataDesigner::clientInit")
-    entrypoint("fabric-datagen", "org.teamvoided.data_designer.DataDesignerData")
+    entrypoint("fabric-datagen", "org.teamvoided.data_designer.data.gen.DataDesignerData")
     mixinFile("data_designer.mixins.json")
     accessWidener("data_designer.accesswidener")
 }
