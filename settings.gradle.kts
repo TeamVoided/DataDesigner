@@ -1,4 +1,4 @@
-rootProject.name = "TeamVoidedTemplate"
+rootProject.name = "DataDesigner"
 pluginManagement {
     repositories {
         maven("https://maven.fabricmc.net/") { name = "Fabric" }

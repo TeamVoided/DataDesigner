@@ -1,15 +1,15 @@
-package org.teamvoided.template
+package org.teamvoided.data_designer
 
 import net.minecraft.util.Identifier
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
 
 @Suppress("unused")
-object Template {
-    const val MODID = "template"
+object DataDesigner {
+    const val MODID = "data_designer"
 
     @JvmField
-    val log: Logger = LoggerFactory.getLogger(Template::class.simpleName)
+    val log: Logger = LoggerFactory.getLogger(DataDesigner::class.simpleName)
 
     fun commonInit() {
         log.info("Hello from Common")

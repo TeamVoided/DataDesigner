@@ -1,2 +1,2 @@
-# The TeamVoided Template
-Template mod by TeamVoided
+# DataDesigner
+An example mod show how to do all of Minecraft's datagen & a datagen library\(for now)

@@ -1,6 +1,6 @@
-projectTitle = "TemplateMod"
-modId = "template"
-githubRepo = "Teamvoided/TeamVoidedTemplateMod"
+projectTitle = "DataDesigner"
+modId = "data_designer"
+githubRepo = "Teamvoided/DataDesigner"
 discordServerInviteId = "KZ5Q364hEg"
 authors = [ "brokenfuse", "theendercore" ]
 majorMinecraftVersion = "1.20"

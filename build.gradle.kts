@@ -26,12 +26,11 @@ modSettings {
     modId(modid)
     modName(mod_name)
 
-    entrypoint("main", "org.teamvoided.template.Template::commonInit")
-    entrypoint("client", "org.teamvoided.template.Template::clientInit")
-    entrypoint("fabric-datagen", "org.teamvoided.template.TemplateData")
-    mixinFile("template.mixins.json")
-
-//    accessWidener("template.accesswidener")
+    entrypoint("main", "org.teamvoided.data_designer.DataDesigner::commonInit")
+    entrypoint("client", "org.teamvoided.data_designer.DataDesigner::clientInit")
+    entrypoint("fabric-datagen", "org.teamvoided.data_designer.DataDesignerData")
+    mixinFile("data_designer.mixins.json")
+    accessWidener("data_designer.accesswidener")
 }
 
 dependencies {
